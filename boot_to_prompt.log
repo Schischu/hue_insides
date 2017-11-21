@@ -1,0 +1,59 @@
+U-Boot 1.1.4 (Jun  2 2016 - 03:24:22)
+
+bsb002 - Honey Bee 2.0DRAM:
+sri
+Honey Bee 2.0
+ath_ddr_initial_config(195): (16bit) ddr2 init
+tap = 0x00000003
+Tap (low, high) = (0x8, 0x22)
+Tap values = (0x15, 0x15, 0x15, 0x15)
+64 MB
+Top of RAM usable for U-Boot at: 84000000
+Reserving 215k for U-Boot at: 83fc8000
+Reserving 192k for malloc() at: 83f98000
+Reserving 44 Bytes for Board Info at: 83f97fd4
+Reserving 36 Bytes for Global Data at: 83f97fb0
+Reserving 128k for boot params() at: 83f77fb0
+Stack Pointer at: 83f77f98
+Now running in RAM - U-Boot at: 83fc8000
+Flash Manuf Id 0xc8, DeviceId0 0x40, DeviceId1 0x13
+flash size 0MB, sector count = 8
+Flash: 512 kB
+*** Warning *** : PCIe WLAN Module not found !!!
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ath_gmac_enet_initialize...
+Fetching MAC Address from 0x83febfe0
+Fetching MAC Address from 0x83febfe0
+ath_gmac_enet_initialize: reset mask:c02200
+Scorpion ---->S27 PHY*
+S27 reg init
+: cfg1 0x800c0000 cfg2 0x7114
+eth0: 00:03:7f:11:20:ce
+athrs27_phy_setup ATHR_PHY_CONTROL 4 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 4 :10
+eth0 up
+Honey Bee ---->  MAC 1 S27 PHY *
+S27 reg init
+ATHRS27: resetting s27
+ATHRS27: s27 reset done
+: cfg1 0x800c0000 cfg2 0x7214
+eth1: 00:17:88:6b:a3:9e
+athrs27_phy_setup ATHR_PHY_CONTROL 0 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 0 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 1 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 1 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 2 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 2 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 3 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 3 :10
+eth1 up
+eth0, eth1
+Qualcomm Atheros SPI NAND Driver, Version 0.1 (c) 2014  Qualcomm Atheros Inc.
+ath_spi_nand_ecc: Couldn't enable internal ECC
+Setting 0x181162c0 to 0x4b97a100
+Hit any key to stop autoboot:  0
+
+** Device 0 not available
+ath>
