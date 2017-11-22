@@ -29,11 +29,11 @@ boot_from_slot_1=setenv bootargs ubi.mtd=7 ${std_bootargs} mtdparts=${mtdparts1}
 bootslot=0
 ethact=eth0
 prodline=line1
-eui64=001788fffe6ba39e
+eui64=...
 set12nc=HueBridge2K15
 ctn=HueBridge2K15
-portal=47b95349cf1c71f28ddae4960887757b
-security=$5$G3UKf6vAEOUIbhel$t23LvG8gBsMTSQlJJV0vE0nbEU0tZuASltn3Xd/dnWA
+portal=...
+security=...
 homekit=542-42-659
 hwrevision=2.1A
 production=1727
